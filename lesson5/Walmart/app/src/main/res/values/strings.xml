@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Walmart</string>
+    <string-array name="categories">
+        <item>Electronics</item>
+        <item>Clothing</item>
+        <item>Pet</item>
+        <item>Food</item>
+    </string-array>
+</resources>
