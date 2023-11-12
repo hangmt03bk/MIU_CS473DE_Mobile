@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="question1">1. Which one of the methods is a kotlin lifecycle method</string>
+    <string name="question1_ans1">onCreate()</string>
+    <string name="question1_ans2">onClick()</string>
+    <string name="question1_ans3">onBack()</string>
+    <string name="question1_ans4">onNext()</string>
+
+    <string name="question2">2. Which is an Implicit Intent Action</string>
+    <string name="question2_ans1">ACTION_SEND</string>
+    <string name="question2_ans2">ACTION_SENDTO</string>
+    <string name="question2_ans3">ACTION_BACK</string>
+    <string name="question2_ans4">ACTION_MOVE</string>
+</resources>
