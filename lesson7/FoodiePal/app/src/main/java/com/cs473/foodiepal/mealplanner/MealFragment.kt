@@ -114,5 +114,6 @@ class MealFragment : Fragment(), OnDayClickListener, OnSelectDateListener, MealD
         val cal = Calendar.getInstance()
         cal.time = planDate
         binding.calendarView.setHighlightedDays(mutableListOf(cal))
+        updateCalendar()
     }
 }
