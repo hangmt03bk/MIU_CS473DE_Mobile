@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">FoodiePal</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="menu_recipes">Recipes</string>
+    <string name="menu_meal">Planner</string>
+    <string name="menu_blog">Blog</string>
+    <string name="menu_contact">Contact</string>
+    <string name="menu_about_me">About me</string>
+
+    <string name="rcp1_name">Gouda Vibes Burgers</string>
+    <string name="rcp1_ingredient">Tomato Onion Jam, Potato Wedges</string>
+    <string name="rcp1_cookingTime">35</string>
+    <string name="rcp1_rating">4</string>
+    <string name="rcp1_desc"></string>
+
+    <string name="rcp2_name">Vegan Thai Ginger Curry</string>
+    <string name="rcp2_ingredient">Creamy Veggies, Peanuts, Lime Rice</string>
+    <string name="rcp2_cookingTime">30</string>
+    <string name="rcp2_rating">3</string>
+    <string name="rcp2_desc"></string>
+
+    <string name="rcp3_name">Green Pepper Mac and Cheese</string>
+    <string name="rcp3_ingredient">Crispy Panko Topping</string>
+    <string name="rcp3_cookingTime">30</string>
+    <string name="rcp3_rating">4</string>
+    <string name="rcp3_desc"></string>
+
+    <string name="rcp4_name">Pork Chops With Zesty Salsa</string>
+    <string name="rcp4_ingredient">Buttery Black Beans over Rice</string>
+    <string name="rcp4_cookingTime">30</string>
+    <string name="rcp4_rating">3</string>
+    <string name="rcp4_desc"></string>
+
+    <string name="rcp5_name">Pineapple Salsa Pork Tacos</string>
+    <string name="rcp5_ingredient">Cilantro, Sour Cream</string>
+    <string name="rcp5_cookingTime">35</string>
+    <string name="rcp5_rating">4</string>
+    <string name="rcp5_desc"></string>
+
+    <string name="rcp6_name">Taqueria Chicken Bowls</string>
+    <string name="rcp6_ingredient">Corn Esquites, Sour Cream, Cilantro</string>
+    <string name="rcp6_cookingTime">35</string>
+    <string name="rcp6_rating">4</string>
+    <string name="rcp6_desc"></string>
+
+    <string name="rcp7_name">Breakfast Snack Board</string>
+    <string name="rcp7_ingredient">Apple, Pita Wedges, Apricot Spread</string>
+    <string name="rcp7_cookingTime">15</string>
+    <string name="rcp7_rating">5</string>
+    <string name="rcp7_desc"></string>
+
+    <string name="am_name">Hang Nguyen</string>
+    <string name="am_detail1">First off, I\'m not a food snob, a critic or a food perfectionist. I simply enjoy culturally different foods, recipes and the aspects and history associated with food from all over the world.</string>
+    <string name="am_detail2">I can call myself lucky to be exposed to dishes from countries such as Mexico, Germany, The United States, Spain, Greece, France, The Netherlands, Belgium, Argentina, Italy, Canada, Austria, Hungary and Denmark - just to name a few.</string>
+
+    <string name="ct_content">Didn\'t get the info you\'re looking for? Click on a button below to get in touch with us.</string>
+    <string name="ct_phone">641-233-9057</string>
+    <string name="ct_callus">Call us (641-233-9057)</string>
+
+    <string name="ct_email">thi.nguyen@miu.edu</string>
+    <string name="ct_emailUs">Email us (thi.nguyen@miu.edu)</string>
+
+    <string name="blog_name1">Gnocchi with Creamy Mushroom Sauce</string>
+    <string name="blog_desc1">Delicious pillowy gnocchi swimming in a silky creamy sauce that’s laced with thyme and loaded with little slips of garlic butter-browned mushrooms!</string>
+    <string name="blog_url1">https://pinchofyum.com/gnocchi-with-creamy-mushroom-sauce</string>
+
+    <string name="blog_name2">Join us for the 2023 Holiday Bucket List!</string>
+    <string name="blog_desc2">The Holiday Bucket List is back again this year!</string>
+    <string name="blog_url2">https://pinchofyum.com/join-us-for-the-2023-holiday-bucket-list</string>
+
+</resources>
