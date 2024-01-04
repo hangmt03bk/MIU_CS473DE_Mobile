@@ -61,13 +61,14 @@ class GardenLogFragment : BaseFragment(), PlantAdapter.OnItemClick,
     }
 
     private fun createDB() {
-        if (viewModel.allPlants.value?.isEmpty() == false)
-            return
-        //viewModel.deleteAll()
-        viewModel.insert(Plant("Rose", "Flower", 2, "2023-01-01"))
-        viewModel.insert(Plant("Tomato", "Vegetable", 3, "2023-02-15"))
-        viewModel.insert(Plant("Basil", "Herb", 1, "2023-03-10"))
-
+        viewModel.allPlants.value?.let {
+            if (it.isNotEmpty())
+                return
+            //viewModel.deleteAll()
+            viewModel.insert(Plant("Rose", "Flower", 2, "2023-01-01"))
+            viewModel.insert(Plant("Tomato", "Vegetable", 3, "2023-02-15"))
+            viewModel.insert(Plant("Basil", "Herb", 1, "2023-03-10"))
+        }
     }
 
     override fun onAddPlant(plant: Plant) {
