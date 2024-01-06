@@ -87,9 +87,9 @@ class AddPlantDialog(val listener: OnAddPlantListener) : DialogFragment() {
     }
 
     private fun isValidInputs(): Boolean{
-        if(!isValidInput(binding.edtNewName, "")) return false
-        if(!isValidInput(binding.edtNewType, "")) return false
-        if(!isValidInput(binding.edtNewFreq, "")) return false
+        if(!isValidInput(binding.edtNewName, "Plant Name")) return false
+        if(!isValidInput(binding.edtNewType, "Plant Type")) return false
+        if(!isValidInput(binding.edtNewFreq, "Watering Frequency")) return false
         //if(!isValidInput(binding.edtNewDate, "")) return false
         return true
     }
@@ -110,7 +110,7 @@ class AddPlantDialog(val listener: OnAddPlantListener) : DialogFragment() {
     private fun initDate() {
         val c = Calendar.getInstance()
         val mYear = c.get(Calendar.YEAR)
-        val mMonth = c.get(Calendar.MONTH)
+        val mMonth = c.get(Calendar.MONTH) + 1
         val mDay = c.get(Calendar.DAY_OF_MONTH)
 
         binding.edtNewDate.text = "$mMonth/$mDay/$mYear"
