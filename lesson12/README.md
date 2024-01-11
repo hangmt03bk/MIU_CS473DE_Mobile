@@ -10,4 +10,4 @@
 
 Screenshot Sunrise sunset        | 
 :-------------------------:
-<img src="Screenshots/Screenshot.png" width="300" height="600"/> | 
+<img src="Screenshot.png" width="300" height="600"/> | 
